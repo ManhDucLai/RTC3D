@@ -1,5 +1,7 @@
 using DevExpress.LookAndFeel;
 using DevExpress.UserSkins;
+using RTC3D.Form;
+using RTC3D.UI;
 
 namespace RTC3D
 {
@@ -14,7 +16,7 @@ namespace RTC3D
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();     
-            Application.Run(new FrmMain());
+            Application.Run(new FrmSetup());
         }
     }
 }

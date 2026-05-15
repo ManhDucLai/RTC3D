@@ -27,5 +27,10 @@ namespace RTC3D
         {
 
         }
+
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

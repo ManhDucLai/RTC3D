@@ -9,15 +9,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RTC3D.UI
+namespace RTC3D.UserControl.Action.Setup_Tool
 {
-    public partial class UC_Windowns : DevExpress.XtraEditors.XtraUserControl
+    public partial class uc_setup_tool_setup : DevExpress.XtraEditors.XtraUserControl
     {
-        public UC_Windowns()
+        public uc_setup_tool_setup()
         {
             InitializeComponent();
         }
-
-        
     }
 }

@@ -9,15 +9,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RTC3D.UI
+namespace RTC3D.UserControl.Action.Setup_Tool.Image_Setting.Camera
 {
-    public partial class UC_Windowns : DevExpress.XtraEditors.XtraUserControl
+    public partial class Halcon : DevExpress.XtraEditors.XtraUserControl
     {
-        public UC_Windowns()
+        public Halcon()
         {
             InitializeComponent();
         }
 
-        
+        private void groupControl1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

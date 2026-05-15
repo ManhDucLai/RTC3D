@@ -177,7 +177,7 @@
             popupContainerControl1.Controls.Add(gridControl1);
             popupContainerControl1.Location = new Point(89, 105);
             popupContainerControl1.Name = "popupContainerControl1";
-            popupContainerControl1.Size = new Size(644, 322);
+            popupContainerControl1.Size = new Size(698, 317);
             popupContainerControl1.TabIndex = 9;
             // 
             // gridControl1
@@ -188,7 +188,7 @@
             gridControl1.MenuManager = barManager1;
             gridControl1.Name = "gridControl1";
             gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] { repositoryItemCheckEdit1 });
-            gridControl1.Size = new Size(644, 322);
+            gridControl1.Size = new Size(698, 317);
             gridControl1.TabIndex = 4;
             gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gridView1 });
             // 
@@ -645,15 +645,15 @@
             barDockControlTop.Dock = DockStyle.Top;
             barDockControlTop.Location = new Point(0, 0);
             barDockControlTop.Manager = barManager1;
-            barDockControlTop.Size = new Size(1178, 49);
+            barDockControlTop.Size = new Size(1169, 49);
             // 
             // barDockControlBottom
             // 
             barDockControlBottom.CausesValidation = false;
             barDockControlBottom.Dock = DockStyle.Bottom;
-            barDockControlBottom.Location = new Point(0, 610);
+            barDockControlBottom.Location = new Point(0, 616);
             barDockControlBottom.Manager = barManager1;
-            barDockControlBottom.Size = new Size(1178, 21);
+            barDockControlBottom.Size = new Size(1169, 21);
             // 
             // barDockControlLeft
             // 
@@ -661,15 +661,15 @@
             barDockControlLeft.Dock = DockStyle.Left;
             barDockControlLeft.Location = new Point(0, 49);
             barDockControlLeft.Manager = barManager1;
-            barDockControlLeft.Size = new Size(0, 561);
+            barDockControlLeft.Size = new Size(0, 567);
             // 
             // barDockControlRight
             // 
             barDockControlRight.CausesValidation = false;
             barDockControlRight.Dock = DockStyle.Right;
-            barDockControlRight.Location = new Point(1178, 49);
+            barDockControlRight.Location = new Point(1169, 49);
             barDockControlRight.Manager = barManager1;
-            barDockControlRight.Size = new Size(0, 561);
+            barDockControlRight.Size = new Size(0, 567);
             // 
             // repositoryItemComboBox1
             // 
@@ -729,7 +729,7 @@
             // 
             AutoScaleDimensions = new SizeF(6F, 13F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1178, 631);
+            ClientSize = new Size(1169, 637);
             Controls.Add(popupContainerControl1);
             Controls.Add(barDockControlLeft);
             Controls.Add(barDockControlRight);
@@ -737,6 +737,7 @@
             Controls.Add(barDockControlTop);
             Name = "FrmMain";
             Text = "FrmMain";
+            Load += FrmMain_Load;
             ((System.ComponentModel.ISupportInitialize)barManager1).EndInit();
             ((System.ComponentModel.ISupportInitialize)repositoryItemPopupContainerEdit2).EndInit();
             ((System.ComponentModel.ISupportInitialize)popupContainerControl1).EndInit();
